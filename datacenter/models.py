@@ -31,7 +31,7 @@ class Visit(models.Model):
         end_of_duration = self.leaved_at if self.leaved_at else timezone.now()
         entered = self.entered_at
         delta = end_of_duration - entered
-        return delta.seconds
+        return delta.total_seconds()
 
 
 def format_duration(delta):
