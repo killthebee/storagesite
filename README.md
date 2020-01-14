@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 
 
-Create ```.env``` file with environment variables, as listed below. 
+Create ```.env``` file at project directory with environment variables, as listed below. 
 Launch app in command prompt. In a few moments you should be able to see storage web site running at 
 http://0.0.0.0:8000/
 
