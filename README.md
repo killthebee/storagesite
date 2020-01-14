@@ -24,14 +24,24 @@ pip install -r requirements.txt
 
 
 
-Launch app in command prompt.
+Create ```.env``` file with environment Variables, as listed below. 
+Launch app in command prompt. In a few moments you should be able to see storage web site running at 
+http://0.0.0.0:8000/
 
 
 
 ```
-python main.py
+python manage.py runserver
 ```
+## Environment Variables
 
+```PASSWORD``` For db's password
+
+```HOST``` For db's host
+
+```SECRET_KEY``` Web site secret key
+
+```DEBUG``` True or False to turn on or off debug mode
 
 ### Project Goals
 
