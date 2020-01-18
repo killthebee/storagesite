@@ -35,9 +35,15 @@ python manage.py runserver
 ```
 ## Environment Variables
 
-```PASSWORD``` For db's password
+```DB_HOST``` For db's host
 
-```HOST``` For db's host
+```DB_PORT``` For db's port
+
+```DB_NAME``` For db's name
+
+```DB_USER``` For db's user
+
+```DB_PASSWORD``` For db's password
 
 ```SECRET_KEY``` Web site secret key
 
